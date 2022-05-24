@@ -38,13 +38,12 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
-	target: 'static',
-
 	router: {
     base: '/ida-project-task/'
   },
 
 	publicRuntimeConfig: {
-    BASE_URL: '/ida-project-task',
+    BASE_URL: '/ida-project-task/',
   }
+
 }
