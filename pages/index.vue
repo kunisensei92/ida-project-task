@@ -86,7 +86,6 @@ export default {
 			const category = 'id'
 			const order = 'desc'
 			this.products = await this.fetchProducts(category, order)
-			console.log(this.products)
 		},
 		
 }
