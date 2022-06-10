@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>А тут ничего нет KEKWait</h1>
+		<h1>А тут ничего нет :(</h1>
 	</div>
 </template>
 

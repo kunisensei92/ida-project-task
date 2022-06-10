@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import { required, numeric, url, minLength } from "vuelidate/lib/validators";
+import { required, numeric, url } from "vuelidate/lib/validators";
 
 export default {
 	data() {
@@ -53,8 +53,6 @@ export default {
 			e.preventDefault()
 
 			this.$v.$touch()
-
-			console.log(this.$v)
 
 			if (!this.$v.$invalid) {
 					const newProduct = {

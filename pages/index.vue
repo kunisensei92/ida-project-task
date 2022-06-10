@@ -52,8 +52,6 @@ export default {
 				const data = await res.json()
 
 				this.products = [data, ...this.products]
-
-				console.log(this.products)
 				
 			},
 			async deleteProduct(id) {
@@ -197,6 +195,7 @@ body {
 .list {
 
 	margin-top: 32px;
+	padding-bottom: 100px;
 
 	&__select {
 	padding: 10px 26px 10px 16px;
